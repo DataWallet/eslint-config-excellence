@@ -87,7 +87,7 @@ var config = {
         'no-path-concat': 2, // enforce use of the path module
 
         // ESLint Coding Style
-        'array-bracker-spacing': [ 2, 'always' ],
+        'array-bracket-spacing': [ 2, 'always' ],
         'block-spacing': [ 2, 'always' ],
         'comma-spacing': [ 2, { before: false, after: true } ],
         'comma-style': [ 2, 'last' ],
@@ -103,7 +103,7 @@ var config = {
             allowArrayStart: true
         } ],
         'new-cap': [ 2, { capIsNew: false } ], // constructor names must be capitalised
-        'new-parans': 2,
+        'new-parens': 2,
         'no-array-constructor': 2,
         'no-bitwise': 2,
         'no-lonely-if': 2, // no if inside else statements
@@ -138,26 +138,26 @@ var config = {
         'prefer-spread': 2,
 
         // React rules
-        'no-danger': 1,
-        'no-deprecated': 2,
-        'no-did-mount-set-state': 1,
-        'no-did-update-set-state': 1,
-        'no-direct-mutation-state': 2,
-        'no-is-mounted': 2,
-        'react-in-jsx-scope': 2,
-        'self-closing-comp': 2,
-        'sort-comp': 1, // warn about incorrect sorting that can be fixed
-        'wrap-multilines': 2,
+        'react/no-danger': 1,
+        'react/no-deprecated': 2,
+        'react/no-did-mount-set-state': 1,
+        'react/no-did-update-set-state': 1,
+        'react/no-direct-mutation-state': 2,
+        'react/no-is-mounted': 2,
+        'react/react-in-jsx-scope': 2,
+        'react/self-closing-comp': 2,
+        'react/sort-comp': 1, // warn about incorrect sorting that can be fixed
+        'react/wrap-multilines': 2,
 
         // JSX specific rules
-        'jsx-boolean-value': [ 2, 'never' ],
-        'jsx-closing-bracket-location': [ 1, 'props-aligned' ],
-        'jsx-curly-spacing': [ 2 , 'never' ],
-        'jsx-equals-spacing': [ 2, 'never' ],
-        'jsx-key': 2,
-        'jsx-max-props-per-line': [ 2, { maximum: 2 } ],
-        'jsx-no-duplicate-props': 2,
-        'jsx-pascal-case': 2,
+        'react/jsx-boolean-value': [ 2, 'never' ],
+        'react/jsx-closing-bracket-location': [ 1, 'props-aligned' ],
+        'react/jsx-curly-spacing': [ 2 , 'never' ],
+        'react/jsx-equals-spacing': [ 2, 'never' ],
+        'react/jsx-key': 2,
+        'react/jsx-max-props-per-line': [ 2, { maximum: 2 } ],
+        'react/jsx-no-duplicate-props': 2,
+        'react/jsx-pascal-case': 2,
     }
 };
 
