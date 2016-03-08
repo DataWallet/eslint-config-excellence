@@ -26,7 +26,6 @@ var config = {
 
     // Add babel and react plugin
     plugins: [
-        'babel',
         'react'
     ],
 
