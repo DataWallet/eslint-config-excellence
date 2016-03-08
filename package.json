@@ -10,6 +10,9 @@
   "engines": {
     "node": "5.x"
   },
+  "scripts": {
+    "postversion": "git push && git push --tags"
+  },
   "license": "Unlicense",
   "dependencies": {
     "babel-eslint": "^6.0.0-beta.3",
