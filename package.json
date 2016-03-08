@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-excellence",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "index.js",
   "description": "ESLint configuration that requires excellence and discipline",
   "repository": {
