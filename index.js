@@ -155,7 +155,6 @@ var config = {
         'react/jsx-key': 2,
         'react/jsx-max-props-per-line': [ 2, { maximum: 2 } ],
         'react/jsx-no-duplicate-props': 2,
-        'react/jsx-pascal-case': 2,
     }
 };
 
