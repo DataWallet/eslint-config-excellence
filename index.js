@@ -73,7 +73,6 @@ var config = {
 
         // ESLint Variable rules
         'no-catch-shadow': 2,
-        'no-undefined': 2, // no undefined variable naming
         'no-use-before-define': 2,
 
         // ESLint Variable warnings
