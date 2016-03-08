@@ -156,14 +156,7 @@ var config = {
         'jsx-key': 2,
         'jsx-max-props-per-line': [ 2, { maximum: 2 } ],
         'jsx-no-duplicate-props': 2,
-        'jsx-no-undef': 1,
         'jsx-pascal-case': 2,
-        'jsx-uses-vars': 1,
-
-        // Babel specific rules
-        'babel/object-curly-spacing': 1,
-        'babel/arrow-parens': 1,
-        'babel/object-shorthand': 1
     }
 };
 
