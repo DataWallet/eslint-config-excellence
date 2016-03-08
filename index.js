@@ -62,6 +62,7 @@ var config = {
         'wrap-iife': [ 2, 'outside' ],
         'yoda': [ 2, 'never', { exceptRange: true } ],
         'no-unused-vars': 0,
+        'no-console': [ 2, { allow: [ 'warn', 'error'] } ]
 
         // ESLint Best Practices warning
         'consistent-return': 1,
