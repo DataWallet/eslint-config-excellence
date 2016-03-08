@@ -149,7 +149,6 @@ var config = {
 
         // JSX specific rules
         'react/jsx-boolean-value': [ 2, 'never' ],
-        'react/jsx-closing-bracket-location': [ 1, 'props-aligned' ],
         'react/jsx-curly-spacing': [ 2 , 'never' ],
         'react/jsx-equals-spacing': [ 2, 'never' ],
         'react/jsx-key': 2,
