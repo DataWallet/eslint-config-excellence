@@ -70,7 +70,6 @@ var config = {
         'eqeqeq': [ 1, 'smart' ],
         'guard-for-in': 1,
         'no-empty-function': 1,
-        'no-invalid-this': 1,
         'no-unmodified-loop-condition': 1, // require assignment on loop conditions being a single variable
         'no-warning-comments': 1, // reminder for FIXME and TODO
 
