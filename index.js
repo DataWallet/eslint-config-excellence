@@ -32,7 +32,6 @@ var config = {
     rules: {
         // ESLint Rules
         'comma-dangle': [ 2, 'never' ],
-        'no-extra-parens': 2,
 
         // ESLint Best Practices erroring
         'accessor-pairs': 2,
