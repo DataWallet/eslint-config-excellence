@@ -120,7 +120,7 @@ var config = {
 
         // ESLint Coding Styles that are changing and disputed
         'jsx-quotes': [ 2, 'prefer-single' ], // prefer-single or prefer-double
-        'quotes': [ 2, 'single' ],
+        'quotes': [ 2, 'single', 'avoid-escape' ],
         'semi': [ 2, 'always' ],
 
         // ESLint ES6 Rules
