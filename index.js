@@ -63,7 +63,7 @@ var config = {
         'yoda': [ 2, 'never', { exceptRange: true } ],
         'no-unused-vars': 0,
         'no-console': [ 2, { allow: [ 'warn', 'error'] } ],
-        'no-undefined' 0,
+        'no-undefined': 0,
 
         // ESLint Best Practices warning
         'consistent-return': 1,
