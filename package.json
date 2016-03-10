@@ -15,11 +15,9 @@
     "test": "eslint --no-eslintrc index.js"
   },
   "license": "Unlicense",
-  "dependencies": {
+  "peerDependencies": {
+    "eslint": "~2.2.0",
     "babel-eslint": "^6.0.0-beta.3",
     "eslint-plugin-react": "^4.2.0"
-  },
-  "peerDependencies": {
-    "eslint": "^2.2.0"
   }
 }
