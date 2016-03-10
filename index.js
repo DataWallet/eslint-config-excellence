@@ -85,7 +85,14 @@ var config = {
         'no-path-concat': 2, // enforce use of the path module
 
         // ESLint Coding Style
-        'array-bracket-spacing': [ 2, 'always' ],
+        'array-bracket-spacing': [ 2, 'always', {
+            objectsInArrays: false,
+            arraysInArrays: false
+        } ],
+        'object-curly-spacing': [ 2, 'always', {
+            objectsInObjects: false,
+            arraysInObjects: false
+        } ],
         'block-spacing': [ 2, 'always' ],
         'comma-spacing': [ 2, { before: false, after: true } ],
         'comma-style': [ 2, 'last' ],
