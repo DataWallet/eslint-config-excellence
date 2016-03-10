@@ -78,7 +78,7 @@ var config = {
         'no-use-before-define': 2,
 
         // ESLint Variable warnings
-        'no-shadow': 1,
+        'no-shadow': [ 1, { allow: [ '_' ] } ],
 
         // ESLint NodeJS and CommonJS
         'callback-return': 2,
