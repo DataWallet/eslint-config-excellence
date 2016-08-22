@@ -145,14 +145,14 @@ var config = {
         // React rules
         'react/no-danger': 1,
         'react/no-deprecated': 2,
-        'react/no-did-mount-set-state': [ 1, 'allow-in-func' ],
-        'react/no-did-update-set-state': [ 1, 'allow-in-func' ],
+        'react/no-did-mount-set-state': 1,
+        'react/no-did-update-set-state': 1,
         'react/no-direct-mutation-state': 2,
         'react/no-is-mounted': 2,
         'react/react-in-jsx-scope': 2,
         'react/self-closing-comp': 2,
         'react/sort-comp': 1, // warn about incorrect sorting that can be fixed
-        'react/wrap-multilines': 2,
+        'react/jsx-wrap-multilines': 2,
 
         // JSX specific rules
         'react/jsx-boolean-value': [ 2, 'never' ],
@@ -165,4 +165,3 @@ var config = {
 };
 
 module.exports = config;
-
